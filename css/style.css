@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /*Navbar*/
+  .navbar {
+    background: #284540;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 13%;
+    z-index: 5;
+    box-shadow: #25373b;
+  }
+  
+  .nav {
+    flex: 1;
+    text-align: center;
+    margin-right: 2%;
+  }
+  
+  .nav ul li {
+    display: inline-block;
+  }
+  
+  .nav li {
+    display: inline-block;
+    padding: 8px 30px;
+    margin-bottom: 50px;
+    transition: 1s;
+  }
+  
+  .nav ul li:hover {
+    background: #425551e6;
+    border-radius: 30px;
+  }
+  
+  .logo img {
+    width: 65px;
+    height: 65px;
+    padding-top: 3px;
+    margin-left: 20px;
+
+  }
+  .logo a {
+    margin-left: 50%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /*Jumbotrom*/
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/jumbotron.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .textjum {
+    padding-top: 330px;
+    padding-left: 50px;
+  }
+  
+  .textjum h1 {
+    font-size: 50px;
+    color: rgb(255, 238, 238);
+    letter-spacing: 2px;
+  }
+  
+  .textjum p {
+    font-size: 15px;
+    color: white;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #284540;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+  }
+  .btn:hover {
+    background: #25373b;
+  }
+
+  /* tentang kami */
+  .about h1{
+    text-align: center;
+    margin-top: 80px;
+
+}
+ img {
+    margin-left: 10%;
+    margin-bottom: 50px;
+ }
+
+ .paragrap{
+    margin-left: 50%;
+    margin-right: 20%;
+    padding-top: 20px;
+    margin-top: -50vh;
+    margin-bottom: 50px;
+
+ }
+  /* end tentang kami */
+
+  /*Product*/
+.product {
+    padding-top: 8%;
+  }
+  
+  .textproduct h1 {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .column p {
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 100px;
+    float: center;
+  }
+  .column {
+    float: left;
+    width: 30.33%;
+    margin-right: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* end menu */
+
+  /* kontak */
+  .contact {
+  width: 100%;
+  position: relative;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.contact h1 {
+    margin-top: 70px;
+}
+.contact .contacts {
+  max-width: 800px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-right: 50%;
+}
+.container .contact-info .box {
+  position: relative;
+  padding: 5px 0px;
+  display: flex;
+}
+
+.container .contact-info .box .text p {
+  margin-left: 30px;
+  color: darkslategrey;
+}
+.container .contact-info .box .text h2 {
+  text-align: left;
+  margin-left: 12px;
+  color: rgb(8, 8, 8);
+}
+.contact-form {
+  width: 40%;
+  padding: 40px;
+  background: rgb(252, 250, 250);
+  margin-left: 60%;
+  margin-top: -250px;
+  border-radius: 20%;
+}
+.contact-form h2 {
+  font-size: 40px;
+  color: #333;
+  margin-top: -31px;
+  font-weight: 500;
+}
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+  width: 100%;
+  padding: 5px 0px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid rgb(31, 27, 27);
+  outline: none;
+  resize: none;
+}
+.contact-form .input-box1 input {
+  width: 100px;
+  padding: 5px 0px;
+  margin: 10px 0;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+  background: #212121;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.contact-form .input-box1 input:hover {
+
+}
+.contact-form .input-box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box input:valid ~ span,
+.contact-form .input-box textarea:focus ~ span,
+.contact-form .input-box textarea:valid ~ span {
+  color: rgb(62, 44, 40);
+  transform: translateY(-20px);
+}
+/* end contact */
+
+/*footer*/
+.footer {
+    background: #3c655a;
+    height: 60px;
+  }
+  
+  .footer p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 25px;
+    
+  }
+  
