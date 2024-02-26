@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+.carousel{
+    margin-top: 100px;
+}
+
+.form-control {
+    width: 300px;
+    height: 35px;
+}
+
+.img-categori:hover{
+    transform: scale(1.2);
+}
+
+.row-container {
+    background-color: white;
+    margin: 0px;
+}
+
+.card:hover {
+    border: 2px solid dimgray;
+    cursor: pointer;
+}
+
+.row-product{
+    background-color: white;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 16px;
+}

@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+.carousel{
+    margin-top: 100px;
+}
+
+.form-control {
+    width: 300px;
+    height: 35px;
+}
+
+.img-categori:hover{
+    transform: scale(1.2);
+}
+
+.row-container {
+    background-color: white;
+    margin: 0px;
+}
+
+.card:hover {
+    border: 2px solid dimgray;
+    cursor: pointer;
+}
+
+.row-product{
+    background-color: white;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 16px;
+}
+
+.garis-product{
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.review-name{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.review-desk{
+    font-size: 14px;
+}
+
+.deskripsi{
+    height: 250px;
+   overflow-y: scroll;
+}
+
+.review{
+    height: 250px;
+    overflow-y: scroll;
+}

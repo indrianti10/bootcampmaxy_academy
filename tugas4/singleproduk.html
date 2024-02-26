@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Luna Chich</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="40" class="me-2">
+                Luna <strong>Chich</strong>
+              </a>
+          <div class="collapse navbar-collapse just" id="navbarNavDropdown">
+            <form class="d-flex ms-auto" role="search">
+                <input class="form-control me-2" type="search" placeholder="Cari Barang Anda..." aria-label="cari">
+                <button class="btn btn-light" type="submit"><i class="bi bi-search w-20 "></i></button>
+              </form>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="keranjang.html"><i class="bi bi-cart4"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-bell"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-info px-3" href="#" role="button">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
+
+    <!--breadcrumb  -->
+    <div class="container">
+        <nav aria-label="breadcrumb" style="background-color: white; " class="mt-3">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Brands</a></li>
+              <li class="breadcrumb-item"><a href="#">Kategori</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Produk</li>
+            </ol>
+          </nav>
+    </div>
+    <!-- end breadcrumb -->
+
+    <!-- singleproduk -->
+    <div class="container">
+        <div class="row row-product">
+            <div class="col-lg-5">
+                <figure class="figure">
+                    <img src="img/produk/rekom1.jpeg" class="figure-img img-fluid border " style="border-radius: 5px; width: 450px;" alt="...">
+                    <figcaption class="figure-caption d-flex justify-content-evenly">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/produk/rekom1.jpeg" class="figure-img img-fluid border " style="border-radius: 5px; width: 70px;" alt="..."> 
+                        </a>
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/produk/rekom1.jpeg" class="figure-img img-fluid border " style="border-radius: 5px; width: 70px;" alt="..."> 
+                        </a>
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/produk/rekom1.jpeg" class="figure-img img-fluid border " style="border-radius: 5px; width: 70px;" alt="..."> 
+                        </a>
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/produk/rekom1.jpeg" class="figure-img img-fluid border " style="border-radius: 5px; width: 70px;" alt="..."> 
+                        </a>
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/produk/rekom1.jpeg" class="figure-img img-fluid border " style="border-radius: 5px; width: 70px;" alt="..."> 
+                        </a>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-7">
+                <h4>Converse Run Star Hike</h4>
+                <div class="garis-product"></div>
+                <h3 class="text-muted mb-2">Rp. 889.000</h3>
+                <button class="button btn-dark btn-sm"><i class="bi bi-dash"></i></button>
+                <span class="mx-3">1</span>
+                <button class="button btn-warning btn-sm"><i class="bi bi-plus text-white"></i></button>
+                <span class="text-secondary mx-3">Tersisa 25 pasang</span>
+
+                <div class="btn-produk mt-4">
+                    <a href="keranjang.html" class="btn btn-dark btn-md" style="font-size: 14px;"><i class="bi bi-cart4 fs-6 me-2"></i>Masukan Keranjang</a>
+                    <a href="" class="btn btn-warning btn-md" style="font-size: 14px;">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- review -->
+        <div class="row row-product">
+            <div class="col-12">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="deskripsi-tab" data-bs-toggle="tab" data-bs-target="#deskripsi-tab-pane" type="button" role="tab" aria-controls="deskripsi-tab-pane" aria-selected="true">Deskripsi Produk</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review-tab-pane" type="button" role="tab" aria-controls="review-tab-pane" aria-selected="false">Review Produk</button>
+                    </li>
+                   
+                  </ul>
+                  <div class="tab-content p-3" id="myTabContent">
+                    <div class="tab-pane fade show active deskripsi" id="deskripsi-tab-pane" role="tabpanel" aria-labelledby="deskripsi-tab" tabindex="0">
+                        <p>SEPATU SNEAKERS RUN STAR HIKE </p></br>
+
+                            ✓MATERIAL CANVAS 12 os (Lebih tebal)</br>
+                            ✓STOBEL (JAHIT DALAM) LEBIH KUAT</br>
+                            ✓KARET BAWAH TEBAL DAN TIDAK LICIN</br>
+                            ✓LOGO KULIT BUKAN SABLON LEBIH KEREN</br>
+                            ✓PAKING UDAH DENGAN BOX
+                            
+                            UKURAN/SIZE</br>
+                            36 INSOL 22cm</br>
+                            37 INSOL 23cn</br>
+                            38 INSOL 24cm</br>
+                            39 INSOL 25cm</br>
+                            40 INSOL 25,5</br>
+                            41insol 26cm</br>
+
+                        </p>
+                    </div>
+                    <div class="tab-pane fade review" id="review-tab-pane" role="tabpanel" aria-labelledby="review-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-1">
+                                <img src="img/review/review2.jpeg" class="review-img rounded-circle" width="50" alt="">
+                            </div>
+                            <div class="col">
+                                <h5 class="review-name">Mika Cantika</h5>
+                                <P class="review-desk text-secondary">Produk Original, Pengiriman super cepat, admin fast respon</P>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <img src="img/review/review1.jpeg" class="review-img rounded-circle" width="50" height="50" alt="">
+                            </div>
+                            <div class="col">
+                                <h5 class="review-name">Maya Andra</h5>
+                                <P class="review-desk text-secondary">Produk Original, Pengiriman super cepat, admin fast respon, packingan rapih</P>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+            </div>
+        </div>
+        <!-- end review -->
+    </div>
+    <!-- end singleproduk -->
+
+
+    <!-- footer -->
+    <footer class="bg-light pt-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="" class="text-decoration-none">
+                        <img src="img/logo.png" style="width: 30px;" alt="">
+                    </a>
+                    <span ><b>Coppyright @2024 | Created and Developed by Indrianti</b></span>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
